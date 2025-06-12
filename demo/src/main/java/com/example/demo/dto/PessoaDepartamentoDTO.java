@@ -10,6 +10,9 @@ public class PessoaDepartamentoDTO {
 
     private DepartamentoDTO departamentoDTO;
 
+    public PessoaDepartamentoDTO() {
+    }
+
     public PessoaDepartamentoDTO(Long id, String nome, Double salario, DepartamentoDTO departamentoDTO) {
         this.id = id;
         this.nome = nome;

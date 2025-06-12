@@ -7,6 +7,9 @@ public class DepartamentoDTO {
     private Long id;
     private String nome;
 
+    public DepartamentoDTO() {
+    }
+
     public DepartamentoDTO(Long id, String nome) {
         this.id = id;
         this.nome = nome;
